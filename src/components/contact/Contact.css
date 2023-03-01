@@ -1,0 +1,91 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  input,
+  select,
+  textarea {
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #555a5e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555a5e;
+  }
+  @media screen and (max-width: 768px) {
+    /* Reduce margin on contact-container */
+    .contact-container {
+      margin-top: 30px;
+    }
+  
+    /* Decrease font size on h1 */
+    h1 {
+      font-size: 28px;
+    }
+  
+    /* Adjust width of form elements */
+    input,
+    select,
+    textarea {
+      max-width: 320px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    /* Reduce margin on contact-container */
+    .contact-container {
+      margin-top: 20px;
+    }
+  
+    /* Decrease font size on h1 */
+    h1 {
+      font-size: 24px;
+    }
+  
+    /* Adjust width of form elements */
+    input,
+    select,
+    textarea {
+      max-width: 280px;
+    }
+  
+    /* Increase padding on button */
+    button {
+      padding: 8px 16px;
+    }
+  }
